@@ -1,0 +1,265 @@
+
+
+.small {
+	font-size:10px !important;
+	font-weight: normal !important;
+	line-height: 2 !important;
+    display: inline-block !important;
+}
+
+.footer {
+    background-color:#fff;
+    font-size:10px;
+    color:#c0c0c0; 
+}
+
+.footer a {
+    color:#c0c0c0;
+}
+
+.popover {
+    max-width:800px;
+}
+
+li {
+    padding-bottom: 15px;
+}
+
+li:last-of-type {
+    padding-bottom: 0;
+}
+
+ol, ul, p {
+    padding-top: 20px;
+}
+
+mark {
+    background-color: #ffff5f !important;
+}
+		.block-set, .f-text {
+	font-family: 'Lato', 'Roboto', 'Helvetica', 'sans-serif';
+	}
+		.f-header, .f-subheader, .f-desc, .f-name, .f-btn {
+	font-family: 'Oswald', 'Roboto Condensed';
+	}
+
+/* ------------- 
+content start - Text.css
+------------- */
+
+.f-text {
+
+}
+
+.ul-checks-1 li:before, .ul-checks-2 li:before, .ul-checks-3 li:before, .ul-checks-4 li:before, .ul-checks-5 li:before {
+    color: #4caf50;
+    font-size: 100%;
+}
+
+.ul-checks-6 li:before, .ul-checks-7 li:before, .ul-checks-8 li:before, .ul-checks-9 li:before {
+    color: #f44336;
+    font-size: 100%;
+}
+
+.ul-checks-5 li:before {
+    content: '\f00c' !important;
+    font-family: 'FontAwesome' !important;
+}
+
+.ul-checks-8 li:before {
+	content: '\f00d' !important;
+    font-family: 'FontAwesome' !important;
+}
+
+.lt-image-caption {
+    margin-top: 10px;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    color: #505050;
+}
+/* ------------- 
+content finish - Text.css
+------------- */
+
+/* ------------- 
+content start - Buttons.css
+------------- */
+
+.whiteborder .btn.f-btn {
+    border: 2px solid #fff;
+}
+
+.shadow .btn.f-btn {
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5); 
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+}
+
+/* BTN */
+.b-btn .btn.f-btn {
+    min-height: auto;
+    font-size: 12px;
+    font-weight: 800;
+    position: relative;
+    display: inline-block;
+    padding: 12px 30px;
+    transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1);
+    letter-spacing: 0;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+    will-change: box-shadow, transform;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    background-color: #999999;
+    color: #FFFFFF;
+    box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
+}
+
+.b-btn .btn.f-btn:hover {
+    box-shadow: 0 14px 26px -12px rgba(153, 153, 153, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(153, 153, 153, 0.2);
+}
+/* end BTN */
+
+
+/* BTN STYLE */
+.b-btn-round .btn.f-btn {
+    border-radius: 30px;
+}
+/* end BTN STYLE */
+
+
+/* BTN SIZE */
+.b-btn-xs .btn.f-btn {
+    padding: 4px 15px;
+    font-size: 10px;
+}
+
+.b-btn-sm .btn.f-btn {
+    padding: 5px 20px;
+    font-size: 11px;
+}
+
+.b-btn-lg .btn.f-btn {
+	font-size: 14px;
+    padding: 18px 36px;
+}
+
+.b-btn-xl .btn.f-btn {
+	font-size: 18px;
+    padding: 18px 36px;
+}
+
+.b-btn-xxl .btn.f-btn {
+	font-size: 28px;
+    padding: 28px 46px;
+}
+/* end BTN SIZE */
+
+
+/* BTN COLORS */
+.b-btn-primary .btn.f-btn {
+    background-color: #9c27b0 !important;
+    color: #FFFFFF!important;
+    box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+}
+
+.b-btn-primary .btn.f-btn:active,
+.b-btn-primary .btn.f-btn:hover {
+    box-shadow: 0 14px 26px -12px rgba(156, 39, 176, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
+}
+
+.b-btn-rose .btn.f-btn {
+    background-color: #e91e63 !important;
+    color: #FFFFFF!important;
+    box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+}
+
+.b-btn-rose .btn.f-btn:active,
+.b-btn-rose .btn.f-btn:hover {
+    box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(233, 30, 99, 0.2);
+}
+
+.b-btn-warning .btn.f-btn {
+    background-color: #ff9800 !important;
+    color: #FFFFFF!important;
+    box-shadow: 0 2px 2px 0 rgba(255, 152, 0, 0.14), 0 3px 1px -2px rgba(255, 152, 0, 0.2), 0 1px 5px 0 rgba(255, 152, 0, 0.12);
+}
+
+.b-btn-warning .btn.f-btn:active,
+.b-btn-warning .btn.f-btn:hover {
+    box-shadow: 0 14px 26px -12px rgba(255, 152, 0, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(255, 152, 0, 0.2);
+}
+
+.b-btn-danger .btn.f-btn {
+    background-color: #f44336 !important;
+    color: #FFFFFF!important;
+    box-shadow: 0 2px 2px 0 rgba(244, 67, 54, 0.14), 0 3px 1px -2px rgba(244, 67, 54, 0.2), 0 1px 5px 0 rgba(244, 67, 54, 0.12);
+}
+
+.b-btn-danger .btn.f-btn:active,
+.b-btn-danger .btn.f-btn:hover {
+    box-shadow: 0 14px 26px -12px rgba(244, 67, 54, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(244, 67, 54, 0.2);
+}
+
+.b-btn-white .btn.f-btn {
+    background-color: #fff !important;
+    color: #999!important;
+    box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
+}
+
+.b-btn-white .btn.f-btn:active,
+.b-btn-white .btn.f-btn:hover {
+    box-shadow: 0 14px 26px -12px rgba(153, 153, 153, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(153, 153, 153, 0.2);
+}
+
+.b-btn-success .btn.f-btn {
+    background-color: #4caf50!important;
+    color: #FFFFFF!important;
+    box-shadow: 0 2px 2px 0 rgba(76, 175, 80, 0.14), 0 3px 1px -2px rgba(76, 175, 80, 0.2), 0 1px 5px 0 rgba(76, 175, 80, 0.12);
+}
+
+.b-btn-success .btn.f-btn:active,
+.b-btn-success .btn.f-btn:hover {
+        box-shadow: 0 14px 26px -12px rgba(76, 175, 80, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(76, 175, 80, 0.2);
+}
+/* end BTN COLORS */
+/* ------------- 
+content finish - Buttons.css
+------------- */
+
+/* ------------- 
+content start - Forms.css
+------------- */
+
+input {
+    border-radius: 5px !important;
+}
+
+.name input {
+    background-image: url(https://fs.getcourse.ru/fileservice/file/download/a/286652/sc/292/h/eacfed575f003dfcd502878437b35b6c.png);
+    background-position: 97%;
+    background-repeat: no-repeat;}
+.email input {
+    background-image: url(https://fs.getcourse.ru/fileservice/file/download/a/286652/sc/6/h/0be9f192afec5baab73d6dedcb0923ae.png);
+    background-position: 97%;
+    background-repeat: no-repeat;
+}
+.phone input {
+    background-image: url(https://fs.getcourse.ru/fileservice/file/download/a/286652/sc/101/h/d7c5ff700550ecfd44269ec503219824.png);
+    background-position: 97%;
+    background-repeat: no-repeat;
+}
+
+/* ------------- 
+content finish - Forms.css
+------------- */

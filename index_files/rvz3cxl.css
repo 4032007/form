@@ -1,0 +1,43 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * lato:
+ *   - http://typekit.com/eulas/00000000000000000001522d
+ *   - http://typekit.com/eulas/000000000000000000015232
+ *   - http://typekit.com/eulas/000000000000000000015231
+ *   - http://typekit.com/eulas/00000000000000000001522c
+ *
+ * © 2009-2021 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2019-09-28 08:44:43 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=rvz3cxl&ht=tk&f=15701.15703.15705.15708&a=5258924&app=typekit&e=css");
+
+@font-face {
+font-family:"lato";
+src:url("https://use.typekit.net/af/bdde80/00000000000000000001522d/27/l?primer=3a6076633bc77831ac9fb811601de898b4ca8cd1e0aff02d16b23a013090f4db&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/bdde80/00000000000000000001522d/27/d?primer=3a6076633bc77831ac9fb811601de898b4ca8cd1e0aff02d16b23a013090f4db&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/bdde80/00000000000000000001522d/27/a?primer=3a6076633bc77831ac9fb811601de898b4ca8cd1e0aff02d16b23a013090f4db&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"lato";
+src:url("https://use.typekit.net/af/6c7e72/000000000000000000015232/27/l?primer=3a6076633bc77831ac9fb811601de898b4ca8cd1e0aff02d16b23a013090f4db&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/6c7e72/000000000000000000015232/27/d?primer=3a6076633bc77831ac9fb811601de898b4ca8cd1e0aff02d16b23a013090f4db&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/6c7e72/000000000000000000015232/27/a?primer=3a6076633bc77831ac9fb811601de898b4ca8cd1e0aff02d16b23a013090f4db&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"lato";
+src:url("https://use.typekit.net/af/220823/000000000000000000015231/27/l?primer=3a6076633bc77831ac9fb811601de898b4ca8cd1e0aff02d16b23a013090f4db&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/220823/000000000000000000015231/27/d?primer=3a6076633bc77831ac9fb811601de898b4ca8cd1e0aff02d16b23a013090f4db&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/220823/000000000000000000015231/27/a?primer=3a6076633bc77831ac9fb811601de898b4ca8cd1e0aff02d16b23a013090f4db&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"lato";
+src:url("https://use.typekit.net/af/180254/00000000000000000001522c/27/l?primer=3a6076633bc77831ac9fb811601de898b4ca8cd1e0aff02d16b23a013090f4db&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/180254/00000000000000000001522c/27/d?primer=3a6076633bc77831ac9fb811601de898b4ca8cd1e0aff02d16b23a013090f4db&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/180254/00000000000000000001522c/27/a?primer=3a6076633bc77831ac9fb811601de898b4ca8cd1e0aff02d16b23a013090f4db&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+.tk-lato { font-family: "lato",sans-serif; }
